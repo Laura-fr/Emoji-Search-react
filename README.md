@@ -4,7 +4,7 @@ This is a simple emoji search bar app made with react.
 
 ## Features
 
-- Search an emoji with the search bar
+- Find an emoji with the search bar
 
 ## Commands
 
