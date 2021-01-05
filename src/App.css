@@ -1,15 +1,18 @@
-/* container */
+/* CONTAINER */
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: default;
 }
 
 h1 {
   margin-bottom: 30px;
 }
+
+/* SEARCH COMPONENT */
 
 input {
   border: #e7d8d8 1px solid;
@@ -20,11 +23,13 @@ input {
   box-sizing: border-box;
   border-radius: 10px;
   margin-bottom: 50px;
-  background-color: #fcfbfb;
+  background-color: #f8efef;
 }
 
+/* EMOJI COMPONENT */
+
 .line {
-  height: 40px;
+  height: 50px;
   width: 1024px;
   border: #e7d8d8 solid 1px;
   padding: 20px;
@@ -32,9 +37,21 @@ input {
   border-radius: 10px;
   margin: 10px 0;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  font-size: 18px;
+  font-size: 20px;
+  cursor: pointer;
 }
+
+.line:hover {
+  background-color: #f8efef;
+}
+
+.copy {
+  font-size: 15px;
+}
+
+/* FOOTER PART */
 
 footer {
   margin-top: 30px;
